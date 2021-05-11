@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PleaseWorkThisTime">
+
+
+    <LinearLayout
+        android:id="@+id/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="END"
+            android:id="@+id/end"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent"
+            android:textSize="50sp"/>
+        <FrameLayout
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/item_circular_color_accent_border">
+
+            <LinearLayout
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/tick">
+
+            </LinearLayout>
+
+
+        </FrameLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Congratulations"
+            android:textColor="#000000"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="You have finished the workout"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginBottom="40dp"/>
+        <Button
+            android:id="@+id/fb"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="FINISH"
+            android:textSize="25sp"
+            android:textColor="#FFFFFF"
+            android:background="@color/colorAccent"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
